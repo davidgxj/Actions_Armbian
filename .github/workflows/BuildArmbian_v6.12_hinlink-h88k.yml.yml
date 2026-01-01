@@ -30,8 +30,7 @@ jobs:
         RELEASE=noble \
         BUILD_MINIMAL=yes \
         BUILD_DESKTOP=no \
-        KERNEL_CONFIGURE=no \
-        KERNELBRANCH="linux-6.12.y"
+        KERNEL_CONFIGURE=no 
 
 
     - uses: actions/upload-artifact@v4
