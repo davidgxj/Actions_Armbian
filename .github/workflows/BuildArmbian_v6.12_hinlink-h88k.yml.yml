@@ -18,7 +18,7 @@ jobs:
 
     - name: Clone Armbian build repository
       run: |
-        git clone --depth=1 --branch=v25.11 https://github.com/armbian/build
+        git clone --depth=1 https://github.com/armbian/build
         cd build
         
     - name: Build Armbian
